@@ -9,3 +9,5 @@ const renderLoop = () => {
 
     requestAnimationFrame(renderLoop);
 }
+
+requestAnimationFrame(renderLoop);
